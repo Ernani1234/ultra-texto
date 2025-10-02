@@ -1,0 +1,322 @@
+{
+  "profiles": {
+    "Padrão": {
+      "name": "Padrão",
+      "description": "Perfil padrão com exclusões comuns para pastas grandes e desnecessárias",
+      "rules": [
+        {
+          "rule_type": "folder",
+          "pattern": "node_modules",
+          "description": "Dependências Node.js",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670818"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".venv",
+          "description": "Ambiente virtual Python (.venv)",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670819"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "venv",
+          "description": "Ambiente virtual Python (venv)",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670820"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "env",
+          "description": "Ambiente virtual Python (env)",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670821"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".git",
+          "description": "Repositório Git",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670822"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "__pycache__",
+          "description": "Cache Python",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670823"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".vscode",
+          "description": "Configurações VS Code",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670824"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "dist",
+          "description": "Arquivos de distribuição",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670825"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "build",
+          "description": "Arquivos de build",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670826"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "target",
+          "description": "Arquivos de build Java/Rust",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670827"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "bin",
+          "description": "Arquivos binários",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670828"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "obj",
+          "description": "Arquivos de objeto .NET",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670829"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "packages",
+          "description": "Pacotes NuGet/.NET",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670830"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "vendor",
+          "description": "Dependências PHP/Composer",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670831"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "composer",
+          "description": "Cache Composer PHP",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670832"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".gradle",
+          "description": "Cache Gradle",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670833"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".m2",
+          "description": "Cache Maven",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670834"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".npm",
+          "description": "Cache NPM",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670835"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".yarn",
+          "description": "Cache Yarn",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670836"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "coverage",
+          "description": "Relatórios de cobertura de testes",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670837"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "logs",
+          "description": "Arquivos de log",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670838"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "temp",
+          "description": "Arquivos temporários",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670839"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": "tmp",
+          "description": "Arquivos temporários",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670840"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".idea",
+          "description": "Configurações IntelliJ/PhpStorm",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670841"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".vs",
+          "description": "Configurações Visual Studio",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670842"
+        },
+        {
+          "rule_type": "folder",
+          "pattern": ".eclipse",
+          "description": "Configurações Eclipse",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670843"
+        },
+        {
+          "rule_type": "extension",
+          "pattern": ".log",
+          "description": "Arquivos de log",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670844"
+        },
+        {
+          "rule_type": "extension",
+          "pattern": ".tmp",
+          "description": "Arquivos temporários",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670845"
+        },
+        {
+          "rule_type": "extension",
+          "pattern": ".cache",
+          "description": "Arquivos de cache",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670846"
+        },
+        {
+          "rule_type": "extension",
+          "pattern": ".env",
+          "description": "Arquivos de variáveis de ambiente",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670847"
+        },
+        {
+          "rule_type": "regex",
+          "pattern": ".*\\.min\\.(js|css)$",
+          "description": "Arquivos minificados",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670848"
+        },
+        {
+          "rule_type": "regex",
+          "pattern": ".*\\.(exe|dll|so|dylib)$",
+          "description": "Arquivos binários",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670849"
+        },
+        {
+          "rule_type": "regex",
+          "pattern": ".*\\.(zip|rar|7z|tar|gz)$",
+          "description": "Arquivos compactados",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670850"
+        },
+        {
+          "rule_type": "regex",
+          "pattern": ".*\\.(mp4|avi|mov|mkv|wmv)$",
+          "description": "Arquivos de vídeo",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670851"
+        },
+        {
+          "rule_type": "regex",
+          "pattern": ".*\\.(mp3|wav|flac|aac)$",
+          "description": "Arquivos de áudio",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670852"
+        },
+        {
+          "rule_type": "regex",
+          "pattern": ".*\\.(jpg|jpeg|png|gif|bmp|tiff|svg)$",
+          "description": "Arquivos de imagem",
+          "case_sensitive": false,
+          "enabled": true,
+          "created_at": "2025-08-06T08:38:35.670853"
+        }
+      ],
+      "created_at": "2025-08-06T08:38:35.670807",
+      "modified_at": "2025-08-06T08:38:35.670854"
+    },
+    "Teste": {
+      "name": "Teste",
+      "description": "Perfil de teste",
+      "rules": [],
+      "created_at": "2025-08-06T08:38:35.671157",
+      "modified_at": "2025-08-06T08:38:35.671159"
+    },
+    "Teste_1754483966": {
+      "name": "Teste_1754483966",
+      "description": "Perfil de teste",
+      "rules": [],
+      "created_at": "2025-08-06T08:39:26.602704",
+      "modified_at": "2025-08-06T08:39:26.602705"
+    },
+    "teste": {
+      "name": "teste",
+      "description": "",
+      "rules": [],
+      "created_at": "2025-08-06T09:26:01.492740",
+      "modified_at": "2025-08-06T09:26:01.492743"
+    }
+  },
+  "current_profile": "Padrão"
+}

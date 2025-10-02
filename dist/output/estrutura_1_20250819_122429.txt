@@ -1,0 +1,295 @@
+# Estrutura de Diretórios - 2025-08-19 12:24:29
+# Diretório: C:/Users/efonseca/Desktop/tool_csv/v0.1.0_iel/inteligencia-eleitoral
+================================================================================
+
+├── 📁❌ .git/ [EXCLUÍDO: Regra: Repositório Git]
+├── 📁 backend/
+│   ├── 📁❌ .venv/ [EXCLUÍDO: Regra: Ambiente virtual Python (.venv)]
+│   ├── 📁❌ __pycache__/ [EXCLUÍDO: Regra: Cache Python]
+│   ├── 📁 charts/
+│   │   ├── 📁❌ __pycache__/ [EXCLUÍDO: Regra: Cache Python]
+│   │   ├── 📄✅ chart_util.py (7.5 KB)
+│   │   └── 📄✅ gerar_graficos_reais.py (16.1 KB)
+│   ├── 📁 conversations/
+│   │   ├── 📄✅ 872d6f93-2d12-49fa-8745-689135920ae9.json (250 B)
+│   │   ├── 📄✅ 8b5d420a-b1a2-4be6-9cb7-6c204beaa13c.json (250 B)
+│   │   ├── 📄✅ 9dad76ae-9b19-4af3-bf36-32d0c0bb55a0.json (250 B)
+│   │   ├── 📄✅ a527f1a7-9f0f-49e5-b723-8c4b95ed2b57.json (10.7 KB)
+│   │   ├── 📄✅ ade40357-2178-42b6-8929-00650b1fb3f9.json (250 B)
+│   │   ├── 📄✅ b77f17c4-151b-4c93-919b-7c36f9ed23a6.json (250 B)
+│   │   ├── 📄✅ d543e14c-13c3-4ea5-bd0e-cf6424243331.json (250 B)
+│   │   ├── 📄✅ eade872e-875d-43f0-9545-d8e68d912f7d.json (250 B)
+│   │   └── 📄✅ f7051ba9-1e97-4277-ac8e-9f163cbbca18.json (250 B)
+│   ├── 📁 debug/
+│   │   ├── 📄✅ debug_biggquerry.py (9.1 KB)
+│   │   ├── 📄✅ debug_chart_logic.py (8.8 KB)
+│   │   ├── 📄✅ debug_chart_response.py (4.1 KB)
+│   │   └── 📄✅ debug_chartsgen.py (2.0 KB)
+│   ├── 📁 intelligence/
+│   │   ├── 📁❌ __pycache__/ [EXCLUÍDO: Regra: Cache Python]
+│   │   ├── 📄✅ __init__.py (0 B)
+│   │   ├── 📄✅ chart_intelligence.py (21.8 KB)
+│   │   ├── 📄✅ chart_util.py (7.3 KB)
+│   │   ├── 📄✅ conversation_manager.py (18.6 KB)
+│   │   ├── 📄✅ intelligent_bot.py (21.7 KB)
+│   │   ├── 📄✅ prompt_analyzer.py (21.9 KB)
+│   │   ├── 📄✅ sql_generator.py (48.1 KB)
+│   │   └── 📄✅ test_intelligent_system.py (11.9 KB)
+│   ├── 📁 scripts/
+│   │   ├── 📄✅ check_candidatos_table.py (2.3 KB)
+│   │   └── 📄✅ check_table_structure.py (2.1 KB)
+│   ├── 📁❌ temp/ [EXCLUÍDO: Regra: Arquivos temporários]
+│   ├── 📁 tests/
+│   │   ├── 📄✅ test_api_grafico.py (3.6 KB)
+│   │   ├── 📄✅ test_bigquery_integration.py (5.1 KB)
+│   │   ├── 📄✅ teste_consulta_simples.py (5.8 KB)
+│   │   ├── 📄✅ teste_grafico_terminal.py (3.5 KB)
+│   │   └── 📄✅ teste_tipos_graficos.py (7.1 KB)
+│   ├── 📄 .env (443 B)
+│   ├── 📄✅ credentials.json (2.3 KB)
+│   ├── 📄✅ listar_colunas_bigquery.py (714 B)
+│   ├── 📄✅ listar_tabelas_bigquery.py (533 B)
+│   ├── 📄✅ main-ada-chat-bot-bigquery-v2.py (10.3 KB)
+│   ├── 📄✅ main-ada-chat-bot-bigquery.py (40.9 KB)
+│   ├── 📄✅ main-ada-chat-bot.py (4.0 KB)
+│   ├── 📄✅ main_mcp_bigquery.py (43.5 KB)
+│   ├── 📄✅ package-lock.json (86 B)
+│   ├── 📄✅ README.md (421 B)
+│   ├── 📄✅ README_BIGQUERY.md (2.7 KB)
+│   ├── 📄✅ README_GRAFICOS.md (5.8 KB)
+│   ├── 📄✅ requirements.txt (351 B)
+│   ├── 📄 start_bigquery_server.bat (724 B)
+│   └── 📄✅ test_consulta_direta.py (2.4 KB)
+├── 📁 frontend/
+│   ├── 📁 ada-chat-bot/
+│   │   ├── 📁 app/
+│   │   │   └── 📁 iel/
+│   │   │       └── 📄✅ iel-page.css (2.0 KB)
+│   │   ├── 📁❌ dist/ [EXCLUÍDO: Regra: Arquivos de distribuição]
+│   │   ├── 📁❌ node_modules/ [EXCLUÍDO: Regra: Dependências Node.js]
+│   │   ├── 📁 public/
+│   │   │   ├── 📄❌ candidate-photo.png (1.8 MB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ chatbot.png (10.3 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄 favicon.ico (15.0 KB)
+│   │   │   ├── 📄❌ generic-icon.png (601.6 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ iel-logo.png (1.7 MB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ lock-icon.png (1.4 MB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ logo-placeholder.png (826.5 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ message-top.png (1.8 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ partido-politico.png (1.3 MB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ placeholder-logo.png (568 B) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ placeholder-logo.svg (3.1 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ placeholder-user.jpg (1.6 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ placeholder.jpg (1.0 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ placeholder.svg (3.2 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ small-logo.png (246.0 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ social-icons.png (2.1 MB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ timer-icon.png (1.4 MB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📄❌ usuario.jpeg (1.3 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   └── 📄❌ vite.svg (1.5 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 assets/
+│   │   │   │   └── 📄❌ react.svg (4.0 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   │   │   ├── 📁 components/
+│   │   │   │   ├── 📁 ui/
+│   │   │   │   │   ├── 📄✅ accordion.jsx (1.8 KB)
+│   │   │   │   │   ├── 📄✅ alert-dialog.jsx (3.1 KB)
+│   │   │   │   │   ├── 📄✅ alert.jsx (1.4 KB)
+│   │   │   │   │   ├── 📄✅ aspect-ratio.jsx (211 B)
+│   │   │   │   │   ├── 📄✅ avatar.jsx (906 B)
+│   │   │   │   │   ├── 📄✅ badge.jsx (1.5 KB)
+│   │   │   │   │   ├── 📄✅ breadcrumb.jsx (2.1 KB)
+│   │   │   │   │   ├── 📄✅ button.jsx (2.0 KB)
+│   │   │   │   │   ├── 📄✅ calendar.jsx (2.8 KB)
+│   │   │   │   │   ├── 📄✅ card.jsx (1.7 KB)
+│   │   │   │   │   ├── 📄✅ carousel.jsx (4.4 KB)
+│   │   │   │   │   ├── 📄✅ chart.jsx (8.2 KB)
+│   │   │   │   │   ├── 📄✅ checkbox.jsx (1.1 KB)
+│   │   │   │   │   ├── 📄✅ collapsible.jsx (545 B)
+│   │   │   │   │   ├── 📄✅ command.jsx (4.0 KB)
+│   │   │   │   │   ├── 📄✅ context-menu.jsx (7.0 KB)
+│   │   │   │   │   ├── 📄✅ dialog.jsx (3.2 KB)
+│   │   │   │   │   ├── 📄✅ drawer.jsx (3.5 KB)
+│   │   │   │   │   ├── 📄✅ dropdown-menu.jsx (7.0 KB)
+│   │   │   │   │   ├── 📄✅ form.jsx (2.9 KB)
+│   │   │   │   │   ├── 📄✅ hover-card.jsx (1.3 KB)
+│   │   │   │   │   ├── 📄✅ input-otp.jsx (2.0 KB)
+│   │   │   │   │   ├── 📄✅ input.jsx (939 B)
+│   │   │   │   │   ├── 📄✅ label.jsx (558 B)
+│   │   │   │   │   ├── 📄✅ menubar.jsx (7.2 KB)
+│   │   │   │   │   ├── 📄✅ navigation-menu.jsx (5.9 KB)
+│   │   │   │   │   ├── 📄✅ pagination.jsx (2.2 KB)
+│   │   │   │   │   ├── 📄✅ popover.jsx (1.4 KB)
+│   │   │   │   │   ├── 📄✅ progress.jsx (663 B)
+│   │   │   │   │   ├── 📄✅ radio-group.jsx (1.3 KB)
+│   │   │   │   │   ├── 📄✅ resizable.jsx (1.8 KB)
+│   │   │   │   │   ├── 📄✅ scroll-area.jsx (1.4 KB)
+│   │   │   │   │   ├── 📄✅ select.jsx (5.4 KB)
+│   │   │   │   │   ├── 📄✅ separator.jsx (647 B)
+│   │   │   │   │   ├── 📄✅ sheet.jsx (3.5 KB)
+│   │   │   │   │   ├── 📄✅ sidebar.jsx (19.3 KB)
+│   │   │   │   │   ├── 📄✅ skeleton.jsx (248 B)
+│   │   │   │   │   ├── 📄✅ slider.jsx (1.9 KB)
+│   │   │   │   │   ├── 📄✅ sonner.jsx (473 B)
+│   │   │   │   │   ├── 📄✅ switch.jsx (1.1 KB)
+│   │   │   │   │   ├── 📄✅ table.jsx (2.1 KB)
+│   │   │   │   │   ├── 📄✅ tabs.jsx (1.7 KB)
+│   │   │   │   │   ├── 📄✅ textarea.jsx (726 B)
+│   │   │   │   │   ├── 📄✅ toggle-group.jsx (1.5 KB)
+│   │   │   │   │   ├── 📄✅ toggle.jsx (1.4 KB)
+│   │   │   │   │   └── 📄✅ tooltip.jsx (1.6 KB)
+│   │   │   │   └── 📄✅ IELPage.jsx (13.0 KB)
+│   │   │   ├── 📁 hooks/
+│   │   │   │   └── 📄✅ use-mobile.js (545 B)
+│   │   │   ├── 📁 iel/
+│   │   │   │   ├── 📁 components/
+│   │   │   │   │   ├── 📁 ui/
+│   │   │   │   │   │   ├── 📄✅ accordion.tsx (2.1 KB)
+│   │   │   │   │   │   ├── 📄✅ alert-dialog.tsx (3.9 KB)
+│   │   │   │   │   │   ├── 📄✅ alert.tsx (1.6 KB)
+│   │   │   │   │   │   ├── 📄✅ aspect-ratio.tsx (291 B)
+│   │   │   │   │   │   ├── 📄✅ avatar.tsx (1.1 KB)
+│   │   │   │   │   │   ├── 📄✅ badge.tsx (1.6 KB)
+│   │   │   │   │   │   ├── 📄✅ breadcrumb.tsx (2.4 KB)
+│   │   │   │   │   │   ├── 📄✅ button.tsx (2.1 KB)
+│   │   │   │   │   │   ├── 📄✅ calendar.tsx (7.7 KB)
+│   │   │   │   │   │   ├── 📄✅ card.tsx (2.0 KB)
+│   │   │   │   │   │   ├── 📄✅ carousel.tsx (5.7 KB)
+│   │   │   │   │   │   ├── 📄✅ chart.tsx (9.9 KB)
+│   │   │   │   │   │   ├── 📄✅ checkbox.tsx (1.2 KB)
+│   │   │   │   │   │   ├── 📄✅ collapsible.tsx (833 B)
+│   │   │   │   │   │   ├── 📄✅ command.tsx (4.9 KB)
+│   │   │   │   │   │   ├── 📄✅ context-menu.tsx (8.3 KB)
+│   │   │   │   │   │   ├── 📄✅ dialog.tsx (4.0 KB)
+│   │   │   │   │   │   ├── 📄✅ drawer.tsx (4.3 KB)
+│   │   │   │   │   │   ├── 📄✅ dropdown-menu.tsx (8.3 KB)
+│   │   │   │   │   │   ├── 📄✅ form.tsx (3.8 KB)
+│   │   │   │   │   │   ├── 📄✅ hover-card.tsx (1.5 KB)
+│   │   │   │   │   │   ├── 📄✅ input-otp.tsx (2.3 KB)
+│   │   │   │   │   │   ├── 📄✅ input.tsx (988 B)
+│   │   │   │   │   │   ├── 📄✅ label.tsx (635 B)
+│   │   │   │   │   │   ├── 📄✅ menubar.tsx (8.5 KB)
+│   │   │   │   │   │   ├── 📄✅ navigation-menu.tsx (6.7 KB)
+│   │   │   │   │   │   ├── 📄✅ pagination.tsx (2.8 KB)
+│   │   │   │   │   │   ├── 📄✅ popover.tsx (1.6 KB)
+│   │   │   │   │   │   ├── 📄✅ progress.tsx (771 B)
+│   │   │   │   │   │   ├── 📄✅ radio-group.tsx (1.5 KB)
+│   │   │   │   │   │   ├── 📄✅ resizable.tsx (2.0 KB)
+│   │   │   │   │   │   ├── 📄✅ scroll-area.tsx (1.7 KB)
+│   │   │   │   │   │   ├── 📄✅ select.tsx (6.3 KB)
+│   │   │   │   │   │   ├── 📄✅ separator.tsx (727 B)
+│   │   │   │   │   │   ├── 📄✅ sheet.tsx (4.1 KB)
+│   │   │   │   │   │   ├── 📄✅ sidebar.tsx (21.8 KB)
+│   │   │   │   │   │   ├── 📄✅ skeleton.tsx (289 B)
+│   │   │   │   │   │   ├── 📄✅ slider.tsx (2.0 KB)
+│   │   │   │   │   │   ├── 📄✅ sonner.tsx (589 B)
+│   │   │   │   │   │   ├── 📄✅ switch.tsx (1.2 KB)
+│   │   │   │   │   │   ├── 📄✅ table.tsx (2.5 KB)
+│   │   │   │   │   │   ├── 📄✅ tabs.tsx (2.0 KB)
+│   │   │   │   │   │   ├── 📄✅ textarea.tsx (777 B)
+│   │   │   │   │   │   ├── 📄✅ toast.tsx (4.9 KB)
+│   │   │   │   │   │   ├── 📄✅ toaster.tsx (821 B)
+│   │   │   │   │   │   ├── 📄✅ toggle-group.tsx (2.0 KB)
+│   │   │   │   │   │   ├── 📄✅ toggle.tsx (1.6 KB)
+│   │   │   │   │   │   ├── 📄✅ tooltip.tsx (1.9 KB)
+│   │   │   │   │   │   ├── 📄✅ use-mobile.tsx (584 B)
+│   │   │   │   │   │   └── 📄✅ use-toast.ts (4.0 KB)
+│   │   │   │   │   └── 📄✅ theme-provider.tsx (303 B)
+│   │   │   │   ├── 📁 hooks/
+│   │   │   │   │   ├── 📄✅ use-mobile.ts (584 B)
+│   │   │   │   │   └── 📄✅ use-toast.ts (4.0 KB)
+│   │   │   │   ├── 📄✅ iel-page.css (2.0 KB)
+│   │   │   │   ├── 📄✅ layout.tsx (667 B)
+│   │   │   │   ├── 📄✅ page.tsx (5.5 KB)
+│   │   │   │   └── 📄✅ utils.ts (172 B)
+│   │   │   ├── 📁 lib/
+│   │   │   │   ├── 📄✅ utils.js (137 B)
+│   │   │   │   └── 📄✅ utils.ts (172 B)
+│   │   │   ├── 📁 pages/
+│   │   │   │   └── 📄✅ AdaAssistant.tsx (4.3 KB)
+│   │   │   ├── 📁 root/
+│   │   │   │   ├── 📁 components/
+│   │   │   │   │   ├── 📄✅ AudioButton.tsx (852 B)
+│   │   │   │   │   ├── 📄✅ AudioButtonCompleto.tsx (1.0 KB)
+│   │   │   │   │   ├── 📄✅ AudioRecorder.tsx (3.5 KB)
+│   │   │   │   │   ├── 📄✅ CanvasChart.tsx (4.4 KB)
+│   │   │   │   │   ├── 📄✅ ChartImageGenerator.tsx (7.1 KB)
+│   │   │   │   │   ├── 📄✅ ChartRenderer.tsx (15.6 KB)
+│   │   │   │   │   ├── 📄✅ CSSChart.tsx (4.4 KB)
+│   │   │   │   │   ├── 📄✅ DebugInfo.tsx (1.6 KB)
+│   │   │   │   │   ├── 📄✅ Message.tsx (5.3 KB)
+│   │   │   │   │   ├── 📄✅ Messages.tsx (932 B)
+│   │   │   │   │   ├── 📄✅ MockChartTest.tsx (2.1 KB)
+│   │   │   │   │   ├── 📄✅ SimpleTest.tsx (2.2 KB)
+│   │   │   │   │   ├── 📄✅ SVGChart.tsx (4.9 KB)
+│   │   │   │   │   ├── 📄✅ TestChart.tsx (1.6 KB)
+│   │   │   │   │   ├── 📄✅ TestChartImage.tsx (6.1 KB)
+│   │   │   │   │   ├── 📄✅ TestChartResponse.tsx (5.0 KB)
+│   │   │   │   │   ├── 📄✅ TextTest.tsx (2.4 KB)
+│   │   │   │   │   ├── 📄✅ Typing.tsx (210 B)
+│   │   │   │   │   └── 📄✅ UltraSimpleChart.tsx (4.2 KB)
+│   │   │   │   ├── 📁 config/
+│   │   │   │   │   └── 📄✅ api.tsx (92 B)
+│   │   │   │   ├── 📁 styles/
+│   │   │   │   │   ├── 📄✅ Audio.css (1.1 KB)
+│   │   │   │   │   ├── 📄✅ global.css (8.5 KB)
+│   │   │   │   │   ├── 📄✅ index.css (60 B)
+│   │   │   │   │   └── 📄✅ typing.css (663 B)
+│   │   │   │   └── 📄✅ ChatBotAda.tsx (10.5 KB)
+│   │   │   ├── 📄✅ App.css (13.0 KB)
+│   │   │   ├── 📄✅ App.jsx (154 B)
+│   │   │   ├── 📄✅ App.tsx (434 B)
+│   │   │   ├── 📄✅ index.css (0 B)
+│   │   │   ├── 📄✅ main.jsx (229 B)
+│   │   │   ├── 📄✅ main.tsx (159 B)
+│   │   │   └── 📄✅ vite-env.d.ts (39 B)
+│   │   ├── 📄 .env (111 B)
+│   │   ├── 📄 .env_exemplo (38 B)
+│   │   ├── 📄 .eslintrc.cjs (454 B)
+│   │   ├── 📄 .gitignore (277 B)
+│   │   ├── 📄✅ components.json (478 B)
+│   │   ├── 📄✅ debug-frontend.html (5.0 KB)
+│   │   ├── 📄 Dockerfile (499 B)
+│   │   ├── 📄✅ index.html (832 B)
+│   │   ├── 📄✅ package.json (2.7 KB)
+│   │   ├── 📄 pnpm-lock.yaml (191.5 KB)
+│   │   ├── 📄✅ postcss.config.js (118 B)
+│   │   ├── 📄✅ README.md (1.3 KB)
+│   │   ├── 📄✅ README_GRAFICOS.md (5.0 KB)
+│   │   ├── 📄✅ run.txt (11 B)
+│   │   ├── 📄 start.sh (222 B)
+│   │   ├── 📄✅ tailwind.config.js (1.6 KB)
+│   │   ├── 📄✅ test-chart-response.html (6.3 KB)
+│   │   ├── 📄✅ test-quick.html (4.7 KB)
+│   │   ├── 📄✅ test-simple.html (6.3 KB)
+│   │   ├── 📄✅ tsconfig.app.json (704 B)
+│   │   ├── 📄✅ tsconfig.json (250 B)
+│   │   ├── 📄✅ tsconfig.node.json (338 B)
+│   │   └── 📄✅ vite.config.ts (170 B)
+│   ├── 📁 iel/
+│   │   ├── 📁 styles/
+│   │   │   └── 📄✅ globals.css (4.3 KB)
+│   │   ├── 📄 next.config.mjs (242 B)
+│   │   ├── 📄✅ package.json (2.3 KB)
+│   │   ├── 📄 pnpm-lock.yaml (96 B)
+│   │   ├── 📄 postcss.config.mjs (152 B)
+│   │   └── 📄✅ tsconfig.json (622 B)
+│   ├── 📁 mocks/
+│   │   └── 📄❌ mock-inicial-chatIA.png (35.9 KB) [EXCLUÍDO: Regra: Arquivos de imagem]
+│   ├── 📄 .env.local (39 B)
+│   └── 📄✅ package-lock.json (93 B)
+├── 📄 .env (351 B)
+├── 📄 .gitignore (473 B)
+├── 📄 azure-pipeline-build.yml (1.3 KB)
+├── 📄 azure-pipeline-deploy.yaml (6.8 KB)
+└── 📄✅ estrutura_bigquery.txt (10.3 KB)
+
+================================================================================
+# Estatísticas
+
+- **Total de diretórios:** 38
+- **Total de arquivos:** 243
+- **Diretórios excluídos:** 8
+- **Arquivos excluídos:** 20
+- **Tamanho total:** 12.2 MB
+- **Extensões encontradas:** , .bat, .cjs, .css, .html, .ico, .jpeg, .jpg, .js, .json, .jsx, .local, .md, .mjs, .png, .py, .sh, .svg, .ts, .tsx, .txt, .yaml, .yml

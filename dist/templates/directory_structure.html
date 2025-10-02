@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de Diretórios - UltraTexto Pro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
+            color: #ffffff;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: rgba(45, 45, 45, 0.8);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header h1 {
+            color: #14a085;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            color: #b0b0b0;
+            font-size: 1.1em;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: rgba(45, 45, 45, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            border: 1px solid #555;
+        }
+        
+        .stat-card .number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #14a085;
+            display: block;
+        }
+        
+        .stat-card .label {
+            color: #b0b0b0;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .tree-container {
+            background: rgba(45, 45, 45, 0.8);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            border: 1px solid #555;
+        }
+        
+        .tree {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        
+        .tree-item {
+            margin: 2px 0;
+            white-space: pre;
+        }
+        
+        .tree-item.directory {
+            color: #14a085;
+            font-weight: bold;
+        }
+        
+        .tree-item.file {
+            color: #ffffff;
+        }
+        
+        .tree-item.excluded {
+            color: #f44336;
+            text-decoration: line-through;
+        }
+        
+        .tree-item.supported {
+            color: #4caf50;
+        }
+        
+        .icon {
+            margin-right: 5px;
+        }
+        
+        .search-box {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .search-box input {
+            background: rgba(61, 61, 61, 0.8);
+            border: 1px solid #777;
+            border-radius: 25px;
+            padding: 12px 20px;
+            color: #ffffff;
+            font-size: 16px;
+            width: 300px;
+            outline: none;
+        }
+        
+        .search-box input:focus {
+            border-color: #14a085;
+            box-shadow: 0 0 10px rgba(20, 160, 133, 0.3);
+        }
+        
+        .controls {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .btn {
+            background: #14a085;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #0d7377;
+        }
+        
+        .btn.secondary {
+            background: #3d3d3d;
+        }
+        
+        .btn.secondary:hover {
+            background: #555;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #b0b0b0;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .search-box input {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📁 Estrutura de Diretórios</h1>
+            <div class="subtitle">Gerado pelo UltraTexto Pro em {{timestamp}}</div>
+            <div class="subtitle">Diretório: {{root_path}}</div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <span class="number">{{total_directories}}</span>
+                <div class="label">Diretórios</div>
+            </div>
+            <div class="stat-card">
+                <span class="number">{{total_files}}</span>
+                <div class="label">Arquivos</div>
+            </div>
+            <div class="stat-card">
+                <span class="number">{{total_size}}</span>
+                <div class="label">Tamanho Total</div>
+            </div>
+            <div class="stat-card">
+                <span class="number">{{excluded_items}}</span>
+                <div class="label">Itens Excluídos</div>
+            </div>
+        </div>
+        
+        <div class="tree-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Buscar arquivos e pastas..." onkeyup="filterTree()">
+            </div>
+            
+            <div class="controls">
+                <button class="btn" onclick="expandAll()">Expandir Tudo</button>
+                <button class="btn secondary" onclick="collapseAll()">Recolher Tudo</button>
+                <button class="btn secondary" onclick="toggleExcluded()">Mostrar/Ocultar Excluídos</button>
+            </div>
+            
+            <div class="tree" id="treeContent">
+{{tree_content}}
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Gerado por UltraTexto Pro v2.0 | {{generation_time}}</p>
+        </div>
+    </div>
+    
+    <script>
+        function filterTree() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const treeItems = document.querySelectorAll('.tree-item');
+            
+            treeItems.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                if (text.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+        
+        function expandAll() {
+            // Implementar expansão de diretórios
+            console.log('Expandir todos os diretórios');
+        }
+        
+        function collapseAll() {
+            // Implementar recolhimento de diretórios
+            console.log('Recolher todos os diretórios');
+        }
+        
+        function toggleExcluded() {
+            const excludedItems = document.querySelectorAll('.tree-item.excluded');
+            excludedItems.forEach(item => {
+                if (item.style.display === 'none') {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

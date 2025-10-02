@@ -1,0 +1,107 @@
+{
+  "version": "2.0.0",
+  "ui": {
+    "theme": "dark",
+    "window_size": [
+      1200,
+      800
+    ],
+    "window_position": "center",
+    "auto_save_layout": true,
+    "show_tooltips": true,
+    "animation_enabled": true,
+    "font_family": "Segoe UI",
+    "font_size": 10
+  },
+  "processing": {
+    "supported_extensions": [
+      ".js",
+      ".php",
+      ".vue",
+      ".cs",
+      ".py",
+      ".java",
+      ".ts",
+      ".cy",
+      ".json",
+      ".cshtml",
+      ".html",
+      ".csv",
+      ".txt",
+      ".md",
+      ".xml",
+      ".css",
+      ".scss",
+      ".sass",
+      ".jsx",
+      ".tsx",
+      ".cpp",
+      ".c",
+      ".h"
+    ],
+    "include_subdirectories": true,
+    "include_files_in_structure": true,
+    "processing_mode": "content",
+    "max_file_size_mb": 300,
+    "encoding_fallbacks": [
+      "utf-8",
+      "latin-1",
+      "cp1252",
+      "iso-8859-1"
+    ],
+    "chunk_size": 1024,
+    "parallel_processing": true,
+    "max_workers": 4
+  },
+  "output": {
+    "auto_open_results": true,
+    "create_backup": false,
+    "compress_output": false,
+    "output_directory": "C:\\Users\\efonseca\\Desktop\\arquivos_ultratexto",
+    "filename_template": "arquivo_{counter}",
+    "structure_filename_template": "estrutura_{counter}",
+    "timestamp_in_filename": true,
+    "max_output_files": 100
+  },
+  "exclusions": {
+    "current_profile": "Padrão",
+    "auto_exclude_common": true,
+    "case_sensitive": false,
+    "use_regex": true
+  },
+  "export": {
+    "default_format": "text",
+    "include_statistics": true,
+    "include_metadata": true,
+    "html_theme": "dark",
+    "json_pretty_print": true,
+    "xml_formatted": true
+  },
+  "advanced": {
+    "enable_logging": true,
+    "log_level": "INFO",
+    "max_log_files": 10,
+    "cache_enabled": true,
+    "cache_size_mb": 100,
+    "auto_cleanup": true,
+    "cleanup_days": 30,
+    "performance_monitoring": false
+  },
+  "shortcuts": {
+    "process_files": "Ctrl+P",
+    "select_directory": "Ctrl+O",
+    "clear_all": "Ctrl+Shift+C",
+    "open_results": "Ctrl+R",
+    "export_results": "Ctrl+E",
+    "toggle_exclusions": "Ctrl+X",
+    "search": "Ctrl+F",
+    "settings": "Ctrl+,",
+    "quit": "Ctrl+Q"
+  },
+  "history": {
+    "max_recent_directories": 10,
+    "max_recent_files": 20,
+    "save_processing_history": true,
+    "auto_load_last_directory": false
+  }
+}

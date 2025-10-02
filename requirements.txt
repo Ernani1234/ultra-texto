@@ -1,0 +1,25 @@
+# UltraTexto Pro v2.0 - Dependências
+# 
+# Este projeto usa apenas bibliotecas padrão do Python
+# Certifique-se de ter Python 3.8+ instalado
+#
+# Para sistemas Linux, pode ser necessário instalar tkinter:
+# sudo apt-get install python3-tk
+#
+# Para Windows e macOS, tkinter já vem incluído com Python
+
+# Bibliotecas padrão utilizadas:
+# - tkinter (interface gráfica)
+# - pathlib (manipulação de caminhos)
+# - threading (processamento paralelo)
+# - json (exportação JSON)
+# - xml.etree.ElementTree (exportação XML)
+# - datetime (manipulação de datas)
+# - re (expressões regulares)
+# - os (operações do sistema)
+# - sys (informações do sistema)
+# - time (operações de tempo)
+# - collections (estruturas de dados)
+
+# Nenhuma dependência externa necessária!
+
