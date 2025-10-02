@@ -68,9 +68,9 @@ def main():
     print("=" * 50)
     
     # Verificar se estamos no diretório correto
-    if not Path("main_integrated.py").exists():
-        print("❌ Erro: Execute este script no diretório do UltraTexto Pro")
-        print("   Certifique-se de que o arquivo main_integrated.py está presente")
+    if not Path("main.py").exists():
+        print("❌ Erro: Arquivo principal não encontrado!")
+        print("   Certifique-se de que o arquivo main.py está presente")
         sys.exit(1)
     
     # Verificar argumentos
@@ -96,7 +96,7 @@ def main():
     print("🎯 Iniciando UltraTexto Pro...")
     try:
         # Importar e executar aplicação principal
-        from main_integrated import main as app_main
+        from main import main as app_main
         app_main()
     except ImportError as e:
         print(f"❌ Erro ao importar aplicação: {e}")

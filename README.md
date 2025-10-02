@@ -63,7 +63,7 @@ git clone https://github.com/seu-usuario/ultra-texto-pro.git
 cd ultra-texto-pro/ultra-texto
 
 # Execute diretamente - SEM dependências externas!
-python app.py
+python main.py
 ```
 
 ### 🐍 Com Ambiente Virtual
@@ -79,7 +79,7 @@ python -m venv .venv
 .venv\Scripts\activate
 
 # Execute a aplicação
-python app.py
+python main.py
 ```
 
 **💡 Requisitos**: Apenas Python 3.8+ - todas as bibliotecas são nativas!
@@ -132,7 +132,7 @@ import mimetypes
 ### 📁 **Estrutura do Projeto**
 ```
 ultra-texto/
-├── 🚀 app.py                    # Ponto de entrada
+├── 🚀 main.py                   # Ponto de entrada principal
 ├── 🎯 core/                     # Interfaces e contratos
 │   ├── interfaces.py            # Contratos de serviços
 │   ├── exceptions.py            # Exceções customizadas
