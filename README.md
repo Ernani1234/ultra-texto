@@ -39,16 +39,16 @@
 <div align="center">
 
 #### 📂 Seleção e Escaneamento de Projetos
-![Scanning Process](https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif)
+![Scanning Process](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5oM21rcWF6ZHNhbWFieXZnZGx6Y3BrZ2oxa3AzeXF3ZGNkbHRuMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BCL8y2qRqYb96/giphy.gif)
 
 #### 🚫 Sistema de Exclusões Inteligentes  
-![Smart Filtering](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
+![Smart Filtering](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ltcW1zOGM4bHVydm15cXhvNnduZDNxODk5NHVlMnhyMjBwZzV6aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqu0JnieiuhGw/giphy.gif)
 
 #### 📊 Análise e Relatórios em Tempo Real
-![Analytics Dashboard](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)
+![Analytics Dashboard](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzF2Z3ZsZTJvOHdqZnFzMDhia3U2cno4NDNpOHg3Zzhld2MzeHBlZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l378rhA6c1QhJDgbu/giphy.gif)
 
 #### 💾 Exportação Multi-formato
-![Export Options](https://media.giphy.com/media/3oKIPf3C7HqqYBVcCk/giphy.gif)
+![Export Options](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJyZTlleHlqY3FmaDF2enZrdmFtamFsM3BxdHU5eXkxZHV1MjBhbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nWGRHBnAl5Kmc/giphy.gif)
 
 </div>
 
