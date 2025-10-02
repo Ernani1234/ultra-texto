@@ -42,7 +42,7 @@
 ![Scanning Process](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5oM21rcWF6ZHNhbWFieXZnZGx6Y3BrZ2oxa3AzeXF3ZGNkbHRuMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BCL8y2qRqYb96/giphy.gif)
 
 #### 🚫 Sistema de Exclusões Inteligentes  
-![Smart Filtering](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ltcW1zOGM4bHVydm15cXhvNnduZDNxODk5NHVlMnhyMjBwZzV6aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqu0JnieiuhGw/giphy.gif)
+![Smart Filtering](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2J0OWdyb2VyeGJ5MHEwbHhzbnBiM3BkeTY0Z2I4dzI3eDFzOGduYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xULW8N9O5WD32L5052/giphy.gif)
 
 #### 📊 Análise e Relatórios em Tempo Real
 ![Analytics Dashboard](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzF2Z3ZsZTJvOHdqZnFzMDhia3U2cno4NDNpOHg3Zzhld2MzeHBlZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l378rhA6c1QhJDgbu/giphy.gif)
